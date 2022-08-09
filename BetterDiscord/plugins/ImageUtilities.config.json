@@ -1,0 +1,55 @@
+{
+	"all": {
+		"amounts": {
+			"hoverDelay": 0
+		},
+		"detailsSettings": {
+			"footnote": true,
+			"tooltip": false,
+			"tooltipDelay": 0
+		},
+		"engines": {
+			"_all": true,
+			"Baidu": true,
+			"Bing": true,
+			"Google": true,
+			"ImgOps": true,
+			"IQDB": true,
+			"Reddit": true,
+			"SauceNAO": true,
+			"Sogou": true,
+			"TinEye": true,
+			"WhatAnime": true,
+			"Yandex": true
+		},
+		"general": {
+			"nsfwMode": false
+		},
+		"places": {
+			"userAvatars": true,
+			"groupIcons": true,
+			"guildIcons": true,
+			"emojis": true
+		},
+		"rescaleSettings": {
+			"messages": "NONE",
+			"imageViewer": "NONE"
+		},
+		"resizeSettings": {
+			"messages": false,
+			"imageViewer": false
+		},
+		"viewerSettings": {
+			"zoomMode": true,
+			"galleryMode": true,
+			"details": true,
+			"copyImage": true,
+			"saveImage": true
+		},
+		"zoomSettings": {
+			"pixelMode": true,
+			"zoomLevel": 6.2999999999999945,
+			"lensSize": 4053
+		}
+	}
+}
