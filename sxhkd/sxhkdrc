@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-    rofi -modi drun -show drun -display-drun "Search" -show-icons -font "Iosevka Regular 12" 
+    rofi -disable-history -modi drun -show drun -display-drun "Search" -show-icons -font "Iosevka Regular 12" 
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -96,7 +96,7 @@ super + w
     brave 
 # File explorer
 super + n 
-    thunar  
+    nautilus
 # Show keybindings
 super + F1
     ~/.config/bspwm/scripts/keybindings_rofi.sh
