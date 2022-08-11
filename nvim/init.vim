@@ -11,6 +11,7 @@ Plug 'ap/vim-css-color'
 Plug 'tpope/vim-commentary' 
 Plug 'preservim/tagbar'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'bfrg/vim-cpp-modern'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
@@ -30,6 +31,8 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <F2> :TagbarToggle<CR>
 nnoremap <F3> :tabnew<CR>
+" for this to work you have to install xsel and xclip
+vmap <C-c> "+y
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && v:this_session == '' | NERDTree | endif
@@ -49,5 +52,5 @@ set t_CO=256
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 colorscheme gruvbox
-
 source $HOME/.config/nvim/plug-config/coc.vim
+
