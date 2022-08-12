@@ -12,7 +12,7 @@ then
 	bpsc monitor DP-2 -r 
 	bspc monitor HDMI-0 -d I II III IV V 
 fi
-bspc config split_ratio          0.55
+bspc config split_ratio          0.525
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config pointer_follows_focus false
@@ -31,6 +31,7 @@ bspc config top_padding 25
 
 # Rules
 bspc rule -a discord desktop=^3 follow=on
+bspc rule -a Gimp desktop=^4 follow=on 
 #
 # Autostart
 #

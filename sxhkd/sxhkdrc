@@ -109,3 +109,6 @@ super + b
 # Spotify
 super + a 
     spotify
+# Gimp
+super + g 
+    gimp
