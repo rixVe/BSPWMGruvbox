@@ -29,6 +29,8 @@ bspc config active_border_color         "#665c54"
 # Space on top for polybar
 bspc config top_padding 25
 
+# Rules
+bspc rule -a discord desktop=^3 follow=on
 #
 # Autostart
 #
